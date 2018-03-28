@@ -101,7 +101,6 @@ class Installer implements Setup\SampleData\InstallerInterface
 
 
     public function __construct(
-        \Kukla\TWEAttributeSampleData\Model\Category $categorySetup,
         \Kukla\TWEAttributeSampleData\Model\Attribute $attributeSetup,
         \Kukla\TWEAttributeSampleData\Model\Product $productSetup,
         \Kukla\TWEAttributeSampleData\Model\Swatches $swatchesSetup,
