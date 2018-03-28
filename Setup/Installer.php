@@ -102,30 +102,11 @@ class Installer implements Setup\SampleData\InstallerInterface
 
     public function __construct(
         \Kukla\TWEAttributeSampleData\Model\Attribute $attributeSetup,
-        \Kukla\TWEAttributeSampleData\Model\Product $productSetup,
-        \Kukla\TWEAttributeSampleData\Model\Swatches $swatchesSetup,
-        \Kukla\TWEAttributeSampleData\Model\LumaSuppression $lumaSuppression,
         \Magento\Framework\App\State $state,
-        \Magento\CatalogRuleSampleData\Model\Rule $catalogRule,
-        \Magento\SalesRuleSampleData\Model\Rule $salesRule,
-        \Kukla\TWEAttributeSampleData\Model\Upsells $upsells,
-        \Kukla\TWEAttributeSampleData\Model\Review $review,
-        \Magento\Indexer\Model\Processor $index,
-        \Kukla\TWEAttributeSampleData\Model\ProductPosition $productPosition,
-        \Kukla\InstallationOverrides\Model\CategoryProcessorInit $categoryProcessorInit
+        \Magento\Indexer\Model\Processor $index
     ) {
-        $this->categorySetup = $categorySetup;
         $this->attributeSetup = $attributeSetup;
-        $this->productSetup = $productSetup;
-        $this->swatchesSetup = $swatchesSetup;
-        $this->lumaSuppression = $lumaSuppression;
-        $this->catalogRule  = $catalogRule;
-        $this->salesRule = $salesRule;
-        $this->upsells = $upsells;
-        $this->review = $review;
         $this->index = $index;
-        $this->productPosition = $productPosition;
-        $this->categoryProcessorInit = $categoryProcessorInit;
         try{
             $state->setAreaCode('adminhtml');
         }
@@ -142,29 +123,7 @@ class Installer implements Setup\SampleData\InstallerInterface
     {
         //add attributes
         $this->attributeSetup->install(['Kukla_TWEAttributeSampleData::fixtures/attributes.csv']);
-        //set up text and color swatches
-        $this->swatchesSetup->install();
-        //add categories
-        $this->categorySetup->install(['Kukla_TWEAttributeSampleData::fixtures/categories.csv','Kukla_TWEAttributeSampleData::fixtures/lookBookCategories.csv']);
-        //suppress most luma products from venia store
-        $this->productSetup->install(['Kukla_TWEAttributeSampleData::fixtures/suppressLumaProductsFromVenia.csv']);
-        //suppress luma bundle and downloadable products from venia. These cannot be done via import
-        $this->lumaSuppression->install(['Kukla_TWEAttributeSampleData::fixtures/suppressAdditionalLumaProductsFromVenia.csv']);
-        //add venia products
-        $this->categoryProcessorInit->runInit();
-        $this->productSetup->install(['Kukla_TWEAttributeSampleData::fixtures/veniaProducts.csv']);
-        //set position of Shop the Look products
-        $this->productPosition->install(['Kukla_TWEAttributeSampleData::fixtures/productPosition.csv']);
-        //add catalog promos
-        $this->catalogRule->install(['Kukla_TWEAttributeSampleData::fixtures/catalogRules.csv']);
-        //add cart promos
-        $this->salesRule->install(['Kukla_TWEAttributeSampleData::fixtures/salesRules.csv']);
-        //add upsells
-        $this->upsells->install(['Kukla_TWEAttributeSampleData::fixtures/upsells.csv']);
-        //add reviews
-        $this->review->install(['Kukla_TWEAttributeSampleData::fixtures/reviews.csv']);
-        //add video
-        //reIndex as MECE redeploy will not automatically reindex
+        //reindex
         $this->index->reindexAll();
 
     }
