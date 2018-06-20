@@ -10,7 +10,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Kukla\\TWEAttributeSampleData\\": ""
+            "Kukla\\CustomAttributeSampleData\\": ""
         }
     }
 }

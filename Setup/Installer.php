@@ -3,7 +3,7 @@
  * Copyright © 2016 Magento. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Kukla\TWEAttributeSampleData\Setup;
+namespace Kukla\CustomAttributeSampleData\Setup;
 
 use Magento\Framework\Setup;
 
@@ -12,35 +12,35 @@ class Installer implements Setup\SampleData\InstallerInterface
     /**
      * Setup class for category
      *
-     * @var \Kukla\TWEAttributeSampleData\Model\Category
+     * @var \Kukla\CustomAttributeSampleData\Model\Category
      */
     protected $categorySetup;
 
     /**
      * Setup class for product attributes
      *
-     * @var \Kukla\TWEAttributeSampleData\Model\Attribute
+     * @var \Kukla\CustomAttributeSampleData\Model\Attribute
      */
     protected $attributeSetup;
 
     /**
      * Setup class for products
      *
-     * @var \Kukla\TWEAttributeSampleData\Model\Product
+     * @var \Kukla\CustomAttributeSampleData\Model\Product
      */
     protected $productSetup;
 
     /**
      * Convert fashion_color and fashion_size attribute to swatches
      *
-     * @var \Kukla\TWEAttributeSampleData\Model\Swatches
+     * @var \Kukla\CustomAttributeSampleData\Model\Swatches
      */
     protected $swatchesSetup;
 
     /**
      * Suppress downloadable and bundled Luma products from Venia
      *
-     * @var \Kukla\TWEAttributeSampleData\Model\LumaSuppression
+     * @var \Kukla\CustomAttributeSampleData\Model\LumaSuppression
      */
     protected $lumaSuppression;
 
@@ -48,7 +48,7 @@ class Installer implements Setup\SampleData\InstallerInterface
     /**
      * Upsells
      *
-     * @var \Kukla\TWEAttributeSampleData\Model\Upsells
+     * @var \Kukla\CustomAttributeSampleData\Model\Upsells
      */
     protected $upsells;
 
@@ -69,12 +69,12 @@ class Installer implements Setup\SampleData\InstallerInterface
     protected $salesRule;
 
     /**
-     * @var \Kukla\TWEAttributeSampleData\Model\Review
+     * @var \Kukla\CustomAttributeSampleData\Model\Review
      */
     protected $review;
 
     /**
-     * @var \Kukla\TWEAttributeSampleData\Model\ProductPosition
+     * @var \Kukla\CustomAttributeSampleData\Model\ProductPosition
      */
     protected $productPosition;
 
@@ -84,24 +84,24 @@ class Installer implements Setup\SampleData\InstallerInterface
     protected $categoryProcessorInit;
 
     /**
-     * @param \Kukla\TWEAttributeSampleData\Model\Category $categorySetup
-     * @param \Kukla\TWEAttributeSampleData\Model\Attribute $attributeSetup
-     * @param \Kukla\TWEAttributeSampleData\Model\Product $productSetup
-     * @param \Kukla\TWEAttributeSampleData\Model\Swatches $swatchesSetup
-     * @param \Kukla\TWEAttributeSampleData\Model\LumaSuppression $lumaSuppression
+     * @param \Kukla\CustomAttributeSampleData\Model\Category $categorySetup
+     * @param \Kukla\CustomAttributeSampleData\Model\Attribute $attributeSetup
+     * @param \Kukla\CustomAttributeSampleData\Model\Product $productSetup
+     * @param \Kukla\CustomAttributeSampleData\Model\Swatches $swatchesSetup
+     * @param \Kukla\CustomAttributeSampleData\Model\LumaSuppression $lumaSuppression
      * @param \Magento\Framework\App\State $state
      * @param \Magento\CatalogRuleSampleData\Model\Rule $catalogRule
      * @param \Magento\SalesRuleSampleData\Model\Rule $salesRule
-     * @param \Kukla\TWEAttributeSampleData\Model\Upsells $upsells
-     * @param \Kukla\TWEAttributeSampleData\Model\Review $review
+     * @param \Kukla\CustomAttributeSampleData\Model\Upsells $upsells
+     * @param \Kukla\CustomAttributeSampleData\Model\Review $review
      * @param \Magento\Indexer\Model\Processor $index
-     * @param \Kukla\TWEAttributeSampleData\Model\ProductPosition $productPosition
+     * @param \Kukla\CustomAttributeSampleData\Model\ProductPosition $productPosition
      * @param  \Kukla\InstallationOverrides\Model\CategoryProcessorInit $categoryProcessorInit
      */
 
 
     public function __construct(
-        \Kukla\TWEAttributeSampleData\Model\Attribute $attributeSetup,
+        \Kukla\CustomAttributeSampleData\Model\Attribute $attributeSetup,
         \Magento\Framework\App\State $state,
         \Magento\Indexer\Model\Processor $index
     ) {
@@ -122,7 +122,7 @@ class Installer implements Setup\SampleData\InstallerInterface
     public function install()
     {
         //add attributes
-        $this->attributeSetup->install(['Kukla_TWEAttributeSampleData::fixtures/attributes.csv']);
+        $this->attributeSetup->install(['Kukla_CustomAttributeSampleData::fixtures/attributes.csv']);
         //reindex
         $this->index->reindexAll();
 

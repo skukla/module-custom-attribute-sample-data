@@ -6,4 +6,4 @@
 
 use \Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Kukla_TWEAttributeSampleData', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Kukla_CustomAttributeSampleData', __DIR__);
