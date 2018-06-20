@@ -1,5 +1,5 @@
 {
-    "name": "kukla/module-twe-attribute-sample-data",
+    "name": "kukla/module-custom-attribute-sample-data",
     "type": "magento2-module",
     "require": {
         "magento/framework": "*",
