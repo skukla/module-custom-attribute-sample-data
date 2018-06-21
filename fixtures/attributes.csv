@@ -49,7 +49,7 @@ DS Wheelchairs"
 Wheelchair Length,select,0,"38"" L",,ds_wheelchair_length,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
 DS Wheelchairs"
 Wheelchair Seat to Floor Height,select,0,"19_""
-20""",,ds_wheelchair_seat_to_floor_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+20""",,ds_wheelchair_stf_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
 DS Wheelchairs"
 Wheelchair Angle,select,0,"5
 10
