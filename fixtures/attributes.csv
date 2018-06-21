@@ -231,5 +231,3 @@ Table Top Material,select,0,Thermolaminate,,ds_table_top_material,1,,0,,,0,1,0,1
 Table Base Material,select,0,Hardwood,,ds_table_base_material,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
 Table Joint Construction,select,0,Bolt,,ds_table_joint_construction,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
 Table Design Style,select,0,Traditional,,ds_table_design_style,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
-,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,
