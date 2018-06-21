@@ -114,4 +114,122 @@ PTAC Height,select,0,"16"" H
 PTAC Width,select,0,"42"" W",,ds_ptac_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
 PTAC BTUs,select,0,"9000BTU
 12000BTU",,ds_ptac_btus,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+Mattress Brand,select,0,"Direct Supply
+Span-America
+Invacare Continuing Care
+Joerns Healthcare",,ds_matt_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+Mattress Firmness,select,0,"Medium
+Soft",,ds_matt_firmness,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Configuration,select,0,"Flat
+Heel Slope & Raised Perimeters",,ds_matt_configuration,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Cover Type,select,0,"Non-Stretch
+2-Way Stretch
+4-Way Stretch",,ds_matt_cover_type,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Foam Layers,select,0,"2
+3",,ds_matt_foam_layers,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Foam Type,select,0,Urethane,,ds_matt_foam_type,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Firm Perimeter,select,0,"Yes
+No",,ds_matt_firm_perimeter,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Heel Slope,select,0,"Yes
+No",,ds_matt_heel_slope,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Fire Rating,select,0,"16 CFR 1633
+CA117",,ds_matt_fire_rating,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Recycling Fee Qualified,select,0,"Yes
+No",,ds_matt_recycling_fee,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Height,select,0,"6"" H
+7"" H",,ds_matt_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Length,select,0,"75"" L
+76"" L
+80"" L
+84"" L",,ds_matt_length,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Width,select,0,"35"" W
+36"" W
+42"" W",,ds_matt_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Weight Capacity,select,0,"350lbs.
+400lbs.
+500lbs.",,ds_matt_weight_capacity,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Pressure Management Features,select,0,Alternating Pressure,,ds_matt_pressure_mgmt,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Mattress Raised Perimeter,select,0,"Yes
+No",,ds_mattress_raised_perimeter,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
+Chair Brand,select,0,Holsag,,ds_chair_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Back Color,select,0,"Clockwork Lemongrass
+Roadline Inca
+Lucky Charm Toffee
+Nominate Sandstone
+Branch Out Honey",,ds_chair_back_color,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Seat Color,select,0,"Ophidian Bark
+Ophidian Cognac",,ds_chair_seat_color,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Wood Finish,select,0,"Walnut
+Corduroy",,ds_chair_wood_finish,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Width,select,0,"22"" W
+23_"" W
+29_"" W",,ds_chair_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Depth,select,0,"23_"" D
+24"" D
+24_"" D",,ds_chair_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Height,select,0,"33"" H
+33_"" H
+38"" H",,ds_chair_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Arm Height,select,0,"25_""
+26""",,ds_chair_arm_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Seat Width,select,0,"19_""
+20""
+26""",,ds_chair_seat_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Seat Height,select,0,"18_""
+19_""",,ds_chair_seat_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Seat Depth,select,0,"18""
+19""",,ds_chair_seat_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Stackable,select,0,Yes - 4 High,,ds_chair_stackable,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Quick Ship,select,0,"Yes
+No",,ds_chair_quick_ship,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Frame Type,select,0,Wood,,ds_chair_frame_type,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Joint Construction,select,0,"Dowel
+Mortise and Tenon",,ds_chair_joint_construction,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Seat Construction,select,0,"Foam, Plywood",,ds_chair_seat_construction,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Wheel/Caster Availability,select,0,"None
+In-line Wheels
+Casters or Inline Wheels",,ds_chair_wc_available,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Design Style,select,0,Transitional,,ds_chair_design_style,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Fire Rating,select,0,CA117,,ds_chair_fire_rating,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Weight Capacity,select,0,"300lbs.
+506lbs.",,ds_chair_weight_capacity,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Table Brand,select,0,Direct Supply,,ds_table_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
+Table Top Color,select,0,"Cherry Mahogany
+Hayward Cherry
+Obsidian Oak
+Palos Mahogany
+Shaker Cherry
+Solar Oak
+Walnut",,ds_table_top_color,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
+Table Laminate,select,0,"Cherry Mahogany
+Hayward Cherry
+Obsidian Oak
+Palos Mahogany
+Shaker Cherry
+Solar Oak
+Walnut",,ds_table_laminate,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
+Table Base Color,select,0,"Black Maple
+Cherry Maple
+Honey Maple
+Light Cherry Maple
+Mahogany Maple
+Natural Maple
+Hayward Cherry Maple
+Cherry Mahogany Maple
+Solar Oak Maple
+Obsidian Oak Maple
+Palos Mahogany Maple
+Shaker Cherry Maple
+Walnut Maple",,ds_table_base_color,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
+Table Width,select,0,"42"" W
+60"" W",,ds_table_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
+Table Depth,select,0,"36"" D
+42"" D",,ds_table_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
+Table Height,select,0,"30"" H",,ds_table_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
+Table Apron Height,select,0,"27_""",,ds_table_apron_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
+Table Top Material,select,0,Thermolaminate,,ds_table_top_material,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
+Table Base Material,select,0,Hardwood,,ds_table_base_material,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
+Table Joint Construction,select,0,Bolt,,ds_table_joint_construction,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
+Table Design Style,select,0,Traditional,,ds_table_design_style,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
+,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,
