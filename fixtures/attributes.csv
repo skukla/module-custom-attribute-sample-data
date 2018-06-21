@@ -40,102 +40,78 @@ Glove Material,select,0,Vinyl,,ds_glove_material,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,D
 Wheelchair Brand,select,0,"Direct Supply
 Tracer
 Broda
-Gendron",,ds_wc_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+Gendron",,ds_wc_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Height,select,0,"19"" H
 36"" H
-49_"" H",,ds_wc_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
-Wheelchair Length,select,0,"38"" L",,ds_wc_length,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+49_"" H",,ds_wc_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
+Wheelchair Length,select,0,"38"" L",,ds_wc_length,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Seat to Floor Height,select,0,"19_""
-20""",,ds_wc_seat_to_floor_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+20""",,ds_wc_seat_to_floor_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Angle,select,0,"5
 10
 15
-20",,ds_wc_angle,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+20",,ds_wc_angle,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Width,select,0,"36"" H
-26_"" W",,ds_wc_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+26_"" W",,ds_wc_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Seat Depth,select,0,"16""
 18""
-20""",,ds_wc_seat_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+20""",,ds_wc_seat_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Seat Width,select,0,"16i
 18i
-20i",,ds_wc_seat_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+20i",,ds_wc_seat_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Weight Capacity,select,0,"250lbs.
-600lbs.",,ds_wc_weight_capacity,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+600lbs.",,ds_wc_weight_capacity,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Axle,select,0,"Single
-Dual",,ds_wc_axle,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
-Wheelchair Front Rigging Type,select,0,Legrests,,ds_wc_front_rigging_type,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+Dual",,ds_wc_axle,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
+Wheelchair Front Rigging Type,select,0,Legrests,,ds_wc_front_rigging_type,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Front Rigging Adj,select,0,"Tool-less
-Tools",,ds_wc_front_rigging_adj,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+Tools",,ds_wc_front_rigging_adj,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Armrest Type,select,0,"Fixed Full
 Removable Desk
-Removable Full",,ds_wc_armrest_type,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+Removable Full",,ds_wc_armrest_type,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Armrest Height,select,0,"9""
 10""
-15""",,ds_wc_armrest_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+15""",,ds_wc_armrest_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Armrest Style,select,0,"Desk Length
-Full Length",,ds_wc_armrest_style,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+Full Length",,ds_wc_armrest_style,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Upholstery Material,select,0,"Vinyl
-Nylon",,ds_wc_upholstery_material,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+Nylon",,ds_wc_upholstery_material,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Tire Type,select,0,"Molded
-Polyurethane",,ds_wc_tire_type,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
-Wheelchair Wheel Diameter,select,0,"24""",,ds_wc_wheel_diameter,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+Polyurethane",,ds_wc_tire_type,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
+Wheelchair Wheel Diameter,select,0,"24""",,ds_wc_wheel_diameter,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Customizable,select,0,"Yes
-No",,ds_wc_customizable,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+No",,ds_wc_customizable,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Foldable,select,0,"Yes
-No",,ds_wc_foldable,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+No",,ds_wc_foldable,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Locking Casters,select,0,"Yes
-No",,ds_wc_locking_casters,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
-Wheelchair Frame Color,select,0,Black,,ds_wc_frame_color,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
+No",,ds_wc_locking_casters,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
+Wheelchair Frame Color,select,0,Black,,ds_wc_frame_color,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Wheel Locks,select,0,"Frame-Mounted Toggle Brake
-Push To Lock",,ds_wc_wheel_locks,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS Wheelchairs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
-,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
-DS PTACs"
+Push To Lock",,ds_wc_wheel_locks,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
+PTAC Brand,select,0,"Direct Supply
+Amana",,ds_ptac_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC Voltage,select,0,230/208,,ds_ptac_voltage,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC Amps,select,0,20amp,,ds_ptac_amps,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC EER,select,0,"10.5 EER
+10.7 EER
+11.3 EER",,ds_ptac_eer,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC Coefficient of Performance,select,0,"3.2 COP
+3.4 COP",,ds_ptac_cop,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC Cord Included,select,0,"Yes
+No",,ds_ptac_cord_included,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC Corrosion Protection,select,0,"Yes
+No",,ds_ptac_corrosion_protection,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC Wall Sleeve Height,select,0,"16-6/100""
+16-1/16""",,ds_ptac_wall_sleeve_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC Wall Sleeve Width,select,0,"42""",,ds_ptac_wall_sleeve_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC Wall Sleeve Depth,select,0,"13_""
+14-1/8""",,ds_ptac_wall_sleeve_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC Number of Fan Motors,select,0,2,,ds_ptac_no_fan_motors,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC Depth,select,0,"20-9/10"" D
+21_"" D",,ds_ptac_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC Height,select,0,"16"" H
+16-1/16"" H",,ds_ptac_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC Width,select,0,"42"" W",,ds_ptac_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+PTAC BTUs,select,0,"9000BTU
+12000BTU",,ds_ptac_btus,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+,,,,,,,,,,,,,,,,,,,,,,,
