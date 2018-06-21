@@ -30,8 +30,112 @@ DS Chairs
 DS Tables"
 Glove Brand,select,0,"Daymark
 Inteplast",,ds_glove_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Gloves
-Glove Size,select,0,"Extra Small
-Small
+Glove Size,select,0,"Small
 Medium
 Large
-Extra Large",,ds_glove_size,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Gloves
+X-Large",,ds_glove_size,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Gloves
+Glove Length,select,0,"20"" L
+12.250"" L",,ds_glove_length,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Gloves
+Glove Material,select,0,Vinyl,,ds_glove_material,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Gloves
+Wheelchair Brand,select,0,"Direct Supply
+Tracer
+Broda
+Gendron",,ds_wheelchair_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Height,select,0,"19"" H
+36"" H
+49_"" H",,ds_wheelchair_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Length,select,0,"38"" L",,ds_wheelchair_length,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Seat to Floor Height,select,0,"19_""
+20""",,ds_wheelchair_seat_to_floor_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Angle,select,0,"5
+10
+15
+20",,ds_wheelchair_angle,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Width,select,0,"36"" H
+26_"" W",,ds_wheelchair_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Seat Depth,select,0,"16""
+18""
+20""",,ds_wheelchair_seat_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Seat Width,select,0,"16i
+18i
+20i",,ds_wheelchair_seat_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Weight Capacity,select,0,"250lbs.
+600lbs.",,ds_wheelchair_weight_capacity,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Axle,select,0,"Single
+Dual",,ds_wheelchair_axle,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Front Rigging Type,select,0,Legrests,,ds_wheelchair_front_rigging_type,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Front Rigging Adj,select,0,"Tool-less
+Tools",,ds_wheelchair_front_rigging_adj,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Armrest Type,select,0,"Fixed Full
+Removable Desk
+Removable Full",,ds_wheelchair_armrest_type,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Armrest Height,select,0,"9""
+10""
+15""",,ds_wheelchair_armrest_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Armrest Style,select,0,"Desk Length
+Full Length",,ds_wheelchair_armrest_style,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Upholstery Material,select,0,"Vinyl
+Nylon",,ds_wheelchair_upholstery_material,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Tire Type,select,0,"Molded
+Polyurethane",,ds_wheelchair_tire_type,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Wheel Diameter,select,0,"24""",,ds_wheelchair_wheel_diameter,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Customizable,select,0,"Yes
+No",,ds_wheelchair_customizable,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Foldable,select,0,"Yes
+No",,ds_wheelchair_foldable,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Locking Casters,select,0,"Yes
+No",,ds_wheelchair_locking_casters,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Frame Color,select,0,Black,,ds_wheelchair_frame_color,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+Wheelchair Wheel Locks,select,0,"Frame-Mounted Toggle Brake
+Push To Lock",,ds_wheelchair_wheel_locks,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS Wheelchairs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
+,,,,,,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,"DS General
+DS PTACs"
