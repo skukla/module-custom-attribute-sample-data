@@ -1,6 +1,13 @@
 frontend_label,frontend_input,is_required,option,default,attribute_code,is_global,default_value_text,default_value_yesno,default_value_date,default_value_textarea,is_unique,is_searchable,is_visible_in_advanced_search,is_comparable,is_filterable,is_filterable_in_search,position,is_used_for_promo_rules,is_html_allowed_on_front,is_visible_on_front,used_in_product_listing,used_for_sort_by,attribute_set
-Custom Label,select,0,"2011
-2012
-2013
-2014
-2015",,custom_label,0,,0,,,0,0,0,0,0,0,,0,1,1,0,0,Custom Set
+Manufacturer Model,input,0,,,ds_manufacturer_model,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,DS General
+Free Shipping,select,0,"Yes
+No",,ds_free_shipping,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS General
+Warranty,textarea,0,,,ds_warranty,1,,0,,,0,1,0,1,0,0,,1,1,1,0,0,DS General
+Certifications and Listings,textarea,0,,,ds_certifications_and_listings,1,,0,,,0,1,0,1,0,0,,0,1,1,0,0,DS General
+Glove Brand,select,0,"Daymark
+Inteplast",,ds_glove_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Gloves
+Glove Size,select,0,"Extra Small
+Small
+Medium
+Large
+Extra Large",,ds_glove_size,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Gloves
