@@ -122,7 +122,7 @@ PTAC BTUs,select,0,"9000BTU
 Mattress Brand,select,0,"Direct Supply
 Span-America
 Invacare Continuing Care
-Joerns Healthcare",,ds_matt_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+Joerns Healthcare",,ds_matt_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
 Mattress Firmness,select,0,"Medium
 Soft",,ds_matt_firmness,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Mattresses
 Mattress Configuration,select,0,"Flat
