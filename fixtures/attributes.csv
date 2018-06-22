@@ -30,35 +30,40 @@ DS Chairs
 DS Tables"
 Glove Brand,select,0,"Daymark
 Inteplast",,ds_glove_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Gloves
-Glove Size,select,0,"Small
+Glove Size,select,0,"Extra Small
+Small
 Medium
 Large
-X-Large",,ds_glove_size,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Gloves
-Glove Length,select,0,"20"" L
-12.250"" L",,ds_glove_length,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Gloves
+Extra Large",,ds_glove_size,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Gloves
+Glove Length,select,0,"11.520"" L
+12.250"" L
+20"" L",,ds_glove_length,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Gloves
 Glove Material,select,0,Vinyl,,ds_glove_material,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Gloves
-Wheelchair Brand,select,0,"Direct Supply
-Tracer
+Wheelchair Brand,select,0,"ANI Safety
+Direct Supply
+Invacare Continuing Care
 Broda
-Gendron",,ds_wc_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
+Gendron
+Essendant",,ds_wc_brand,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Height,select,0,"19"" H
 36"" H
-49_"" H",,ds_wc_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
+49"" H",,ds_wc_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Length,select,0,"38"" L",,ds_wc_length,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
-Wheelchair Seat to Floor Height,select,0,"19_""
+Wheelchair Seat to Floor Height,select,0,"19""
 20""",,ds_wc_seat_to_floor_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Angle,select,0,"5
 10
 15
 20",,ds_wc_angle,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
-Wheelchair Width,select,0,"36"" H
-26_"" W",,ds_wc_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
+Wheelchair Width,select,0,"16""
+18""
+20""",,ds_wc_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Seat Depth,select,0,"16""
 18""
 20""",,ds_wc_seat_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
-Wheelchair Seat Width,select,0,"16i
-18i
-20i",,ds_wc_seat_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
+Wheelchair Seat Width,select,0,"16""
+18""
+20""",,ds_wc_seat_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Weight Capacity,select,0,"250lbs.
 600lbs.",,ds_wc_weight_capacity,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Wheelchairs
 Wheelchair Axle,select,0,"Single
@@ -104,11 +109,11 @@ No",,ds_ptac_corrosion_protection,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
 PTAC Wall Sleeve Height,select,0,"16-6/100""
 16-1/16""",,ds_ptac_wall_sleeve_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
 PTAC Wall Sleeve Width,select,0,"42""",,ds_ptac_wall_sleeve_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
-PTAC Wall Sleeve Depth,select,0,"13_""
+PTAC Wall Sleeve Depth,select,0,"13""
 14-1/8""",,ds_ptac_wall_sleeve_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
 PTAC Number of Fan Motors,select,0,2,,ds_ptac_no_fan_motors,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
 PTAC Depth,select,0,"20-9/10"" D
-21_"" D",,ds_ptac_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
+21"" D",,ds_ptac_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
 PTAC Height,select,0,"16"" H
 16-1/16"" H",,ds_ptac_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
 PTAC Width,select,0,"42"" W",,ds_ptac_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS PTACs
@@ -162,21 +167,21 @@ Ophidian Cognac",,ds_chair_seat_color,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
 Chair Wood Finish,select,0,"Walnut
 Corduroy",,ds_chair_wood_finish,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
 Chair Width,select,0,"22"" W
-23_"" W
-29_"" W",,ds_chair_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
-Chair Depth,select,0,"23_"" D
+23"" W
+29"" W",,ds_chair_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Depth,select,0,"23"" D
 24"" D
-24_"" D",,ds_chair_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+24"" D",,ds_chair_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
 Chair Height,select,0,"33"" H
-33_"" H
+33"" H
 38"" H",,ds_chair_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
-Chair Arm Height,select,0,"25_""
+Chair Arm Height,select,0,"25""
 26""",,ds_chair_arm_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
-Chair Seat Width,select,0,"19_""
+Chair Seat Width,select,0,"19""
 20""
 26""",,ds_chair_seat_width,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
-Chair Seat Height,select,0,"18_""
-19_""",,ds_chair_seat_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
+Chair Seat Height,select,0,"18""
+19""",,ds_chair_seat_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
 Chair Seat Depth,select,0,"18""
 19""",,ds_chair_seat_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
 Chair Stackable,select,0,Yes - 4 High,,ds_chair_stackable,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Chairs
@@ -226,7 +231,7 @@ Table Width,select,0,"42"" W
 Table Depth,select,0,"36"" D
 42"" D",,ds_table_depth,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
 Table Height,select,0,"30"" H",,ds_table_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
-Table Apron Height,select,0,"27_""",,ds_table_apron_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
+Table Apron Height,select,0,"27""",,ds_table_apron_height,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
 Table Top Material,select,0,Thermolaminate,,ds_table_top_material,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
 Table Base Material,select,0,Hardwood,,ds_table_base_material,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
 Table Joint Construction,select,0,Bolt,,ds_table_joint_construction,1,,0,,,0,1,0,1,1,1,,1,1,1,0,0,DS Tables
